@@ -1,0 +1,16 @@
+# Forcing Device Pixelate Size
+ini_set("dp","3"); #-- HDPI ( 480x800 / WVGA )
+
+# Current calibration was for Samsung Galaxy S (I9000) Devices:
+calibrate_matrix(
+  "58275.00","-3150.00","987262.50","-1190.00",
+  "97750.00", "-912420.00", "124022.50",  "20"
+);
+
+#--Keycapture
+ini_set("customkeycode_up",     "115");
+ini_set("customkeycode_down",   "114");
+ini_set("customkeycode_menu",   "139");
+ini_set("customkeycode_back",   "158");
+ini_set("customkeycode_select", "102"); #--Home button
+#ini_set("customkeycode_select", "116"); #--Power button
